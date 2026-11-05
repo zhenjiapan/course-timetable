@@ -59,7 +59,7 @@ npm ci
 npm run dev
 ```
 
-After the development server starts, keep the terminal open and visit http://localhost:3000. If a different port is shown in the terminal, use that address instead.
+After the development server starts, keep the terminal open and visit http://localhost:3000 . If a different port is shown in the terminal, use that address instead.
 
 This address works only while a server is running on your computer. Visitors can use the [live timetable](https://steven-s-weekly-course-timetable-fa.vercel.app) without installing anything.
 
@@ -99,10 +99,10 @@ docs/data-guide.md           Editing and verification instructions
 
 ## Maintenance and limitations
 
-Edit `data/fall-2026.ts` to update courses; see the [data guide](docs/data-guide.md). This is a recurring weekly view for Fall 2026, using campus local time (Asia/Shanghai). It does not model holidays, date-specific changes, overlapping-course layout, calendar export, or user accounts. The initial mobile selection is Monday.
+Edit `data/fall-2026.ts` to update courses; see the [data guide](docs/data-guide.md). This is a recurring weekly view for Fall 2026, using campus local time (Asia/Beijing). It does not model holidays, date-specific changes, overlapping-course layout, calendar export, or user accounts. The initial mobile selection is Monday.
 
 Course schedules and verbatim course descriptions come from CUHK-Shenzhen SIS. Location images come from the university's public campus map and show teaching buildings, not individual classrooms. The maintainer has checked instructor information and homepage links. See [Sources](docs/sources.md) for provenance and details that remain undocumented. Verify current arrangements with official university information. This repository does not currently grant a separate open-source license; third-party text and images should not be assumed to be freely reusable.
 
 ## Maintainer
 
-[zhenjiapan](https://github.com/zhenjiapan)
+[Zhenjia Pan](https://github.com/zhenjiapan)
