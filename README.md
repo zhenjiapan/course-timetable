@@ -48,7 +48,7 @@ The implementation uses Next.js 16, React 19, TypeScript, and Tailwind CSS 4. St
 
 This is my first vibe coding project: a practical exploration of building an application with AI assistance. Turning a personal need into a working tool helped me develop my software development skills and become more familiar with using Codex.
 
-The project is maintained by Steven Pan. AI-assisted tools were used for repository restructuring, documentation improvements, and selected implementation changes.
+The project is maintained by Zhenjia Pan. AI-assisted tools were used for repository restructuring, documentation improvements, and selected implementation changes.
 
 ## Run locally
 
