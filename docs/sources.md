@@ -1,17 +1,44 @@
 # 资料来源 / Sources
 
-## 课程安排与简介
+以下来源信息由项目维护者于 2026-11-05 提供。此日期是来源说明的记录日期，不代表课程安排或教师信息的实际核对日期。
 
-现有数据保存在 `data/fall-2026.ts`。课程安排的原始教务记录、课程简介出处及实际核实日期目前均为 **待核实 / Pending verification**。尚未取得可确认的原始资料，不将已有文本推定为学校官方原文。实际安排以学校最新通知为准。
+The provenance below was reported by the maintainer on 2026-11-05. This is the documentation date, not the date on which the timetable or instructor information was checked.
 
-## 教师主页
+## 课程安排 / Course schedule
 
-课程数据中保留了学校域名下的教师主页链接。链接存在不等于对应的课程安排或教师任课信息已经核实。
+- 来源：香港中文大学（深圳）SIS（学生信息系统）。
+- 内容：课程时间、教室和班别，保存在 `data/fall-2026.ts`。
+- 最后核对日期：未记录。
+- 原始记录链接：未提供。
 
-## 地点照片
+Course times, classrooms, and sections were taken from CUHK-Shenzhen SIS. The last verification date and a link to the original record have not been recorded.
 
-图片位于 `public/images/locations/`。已合并相同文件，但拍摄者、原始来源、具体拍摄地点及复用授权均为 **待核实 / Pending verification**。文件名沿用课程代码，不代表照片具体教室已经确认。
+## 课程简介 / Course descriptions
 
-## 如何补充
+- 来源：香港中文大学（深圳）SIS。
+- 整理方式：直接复制原文，并非维护者撰写或 AI 生成的概述。
+- 原始记录链接及提取日期：未提供。
 
-维护者取得原始材料后，请记录：资料名称、公开链接（如有）、实际核实日期；照片另记拍摄者和使用依据。不要填写无法证实的来源或授权。
+Course descriptions were copied directly from CUHK-Shenzhen SIS, rather than written by the maintainer or summarized by AI. Source-record links and extraction dates have not been recorded.
+
+## 教师信息 / Instructor information
+
+维护者已核对任课教师和教师主页链接；最近一次核对日期未记录。链接保存在课程数据中。
+
+The maintainer confirms that instructor assignments and homepage links have been checked. The most recent verification date has not been recorded.
+
+## 地点图片 / Location images
+
+- 来源：学校公开的校园地图。
+- 展示对象：教学楼，用于楼宇位置参考，并非对应教室的实景照片。
+- 存放位置：`public/images/locations/`。
+- 相同图片已合并，多条课程记录可以引用同一图片。
+- 校园地图的具体链接、图片作者及复用授权：尚未记录。公开可查看不等同于已取得再分发授权。
+
+Location images come from the university's publicly accessible campus map. They show teaching buildings, not individual classrooms. Identical files have been deduplicated. The exact map URL, image credits, and reuse permission have not been documented; public accessibility alone does not establish permission to redistribute them.
+
+## 更新说明 / Maintenance
+
+实际课程安排以学校最新通知为准。后续可补充实际核对日期、校园地图链接及图片使用说明；本文件不对第三方文字或图片授予额外许可。
+
+Consult the university's latest notices for current arrangements. Verification dates, the map URL, and image-use information can be added when available. This document grants no additional license to third-party text or images.
