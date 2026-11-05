@@ -1,6 +1,6 @@
 # Course Timetable — Fall 2026
 
-A personal, responsive course timetable maintained by Steven Pan. It brings weekly scheduling, course descriptions, instructor links, and location photos into one place.
+A personal, responsive course timetable maintained by Zhenjia Pan. It brings weekly scheduling, course descriptions, instructor links, and location photos into one place.
 
 [Live timetable](https://steven-s-weekly-course-timetable-fa.vercel.app) · [中文说明](README.zh-CN.md) · [Data guide](docs/data-guide.md)
 
