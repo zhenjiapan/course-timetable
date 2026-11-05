@@ -4,6 +4,16 @@ Steven Pan 维护的个人课程表，集中展示每周安排、课程简介、
 
 [在线课表](https://steven-s-weekly-course-timetable-fa.vercel.app) · [English](README.md) · [数据维护指南](docs/data-guide.md)
 
+## 界面预览
+
+### 桌面端周课表
+
+![桌面端周课表](docs/images/timetable-desktop.png)
+
+### 移动端日课表
+
+<img src="docs/images/timetable-mobile.png" alt="移动端日课表" width="360">
+
 ## 功能与项目定位
 
 - 桌面端按时间排列的周课表，移动端按天查看，无课日期显示提示。
