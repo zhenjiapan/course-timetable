@@ -4,6 +4,16 @@ A personal, responsive course timetable maintained by Steven Pan. It brings week
 
 [Live timetable](https://steven-s-weekly-course-timetable-fa.vercel.app) · [中文说明](README.zh-CN.md) · [Data guide](docs/data-guide.md)
 
+## Preview
+
+### Desktop weekly view
+
+![Desktop weekly timetable](docs/images/timetable-desktop.png)
+
+### Mobile daily view
+
+<img src="docs/images/timetable-mobile.png" alt="Mobile daily timetable" width="360">
+
 ## Features
 
 - Desktop weekly grid with time-based course positioning.
