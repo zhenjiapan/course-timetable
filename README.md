@@ -55,6 +55,8 @@ The project is maintained by Zhenjia Pan. AI-assisted tools were used for reposi
 Use Node.js 22.18 or newer (CI uses Node.js 24) and npm. No environment variables are required.
 
 ```sh
+git clone https://github.com/zhenjiapan/course-timetable.git
+cd course-timetable
 npm ci
 npm run dev
 ```
