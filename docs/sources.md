@@ -8,8 +8,8 @@ The provenance below was reported by the maintainer on 2026-11-05. This is the d
 
 - 来源：香港中文大学（深圳）SIS（学生信息系统）。
 - 内容：课程时间、教室和班别，保存在 `data/fall-2026.ts`。
-- 最后核对日期：未记录。
-- 原始记录链接：未提供。
+- 最后核对日期：2026.9.7
+- 原始记录链接：2026.9.7
 
 Course times, classrooms, and sections were taken from CUHK-Shenzhen SIS. The last verification date and a link to the original record have not been recorded.
 
@@ -17,13 +17,13 @@ Course times, classrooms, and sections were taken from CUHK-Shenzhen SIS. The la
 
 - 来源：香港中文大学（深圳）SIS。
 - 整理方式：直接复制原文，并非维护者撰写或 AI 生成的概述。
-- 原始记录链接及提取日期：未提供。
+- 原始记录链接及提取日期：2026.9.7
 
 Course descriptions were copied directly from CUHK-Shenzhen SIS, rather than written by the maintainer or summarized by AI. Source-record links and extraction dates have not been recorded.
 
 ## 教师信息 / Instructor information
 
-维护者已核对任课教师和教师主页链接；最近一次核对日期未记录。链接保存在课程数据中。
+维护者已核对任课教师和教师主页链接。链接保存在课程数据中。
 
 The maintainer confirms that instructor assignments and homepage links have been checked. The most recent verification date has not been recorded.
 
