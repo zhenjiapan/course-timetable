@@ -28,6 +28,18 @@ This is a personal academic planning and frontend practice project, not an offic
 
 The implementation uses Next.js 16, React 19, TypeScript, and Tailwind CSS 4. Static export keeps deployment simple: course information is bundled at build time, while day selection and course details run in the browser.
 
+## Design decisions
+
+- **Static deployment:** Course data is bundled at build time; no database or backend service is required.
+- **Responsive views:** A weekly grid supports desktop browsing, while a daily list supports smaller screens.
+- **Separated responsibilities:** Semester data, time-positioning logic, and interactive components are maintained separately.
+- **Shared images:** Sessions can reference the same location photo without duplicate files.
+- **Validation:** Automated checks cover time conversion, positioning, session identifiers, and image paths.
+
+## Development approach
+
+This project is maintained by Steven Pan. AI-assisted tools were used for repository restructuring, documentation improvements, and selected implementation changes.
+
 ## Run locally
 
 Use Node.js 22.18 or newer (CI uses Node.js 24) and npm. No environment variables are required.
@@ -37,7 +49,11 @@ npm ci
 npm run dev
 ```
 
-Open http://localhost:3000.
+After the development server starts, keep the terminal open and visit http://localhost:3000. If a different port is shown in the terminal, use that address instead.
+
+This address works only while a server is running on your computer. Visitors can use the [live timetable](https://steven-s-weekly-course-timetable-fa.vercel.app) without installing anything.
+
+To check the code and generate deployment files:
 
 ```sh
 npm run lint
@@ -53,6 +69,8 @@ npm start
 ```
 
 This serves static files on localhost:3000. Run the build again after changing source files. Deploy `out/` to a static host; this project does not use a production Next.js server.
+
+Use either `npm run dev` or `npm start` at a time; both use port 3000 by default. Press Ctrl+C to stop the server.
 
 ## Repository structure
 
@@ -73,7 +91,7 @@ docs/data-guide.md           Editing and verification instructions
 
 Edit `data/fall-2026.ts` to update courses; see the [data guide](docs/data-guide.md). This is a recurring weekly view for Fall 2026, using campus local time (Asia/Shanghai). It does not model holidays, date-specific changes, overlapping-course layout, calendar export, or user accounts. The initial mobile selection is Monday.
 
-Course descriptions and instructor links are retained from the existing dataset. Their original sources and photo ownership still need to be documented by the maintainer. Verify current arrangements with official university information. This repository does not currently grant a separate open-source license; third-party text and images should not be assumed to be freely reusable.
+Course information and image provenance are tracked in [Sources](docs/sources.md). Entries marked as pending verification have not yet been confirmed. Verify current arrangements with official university information. This repository does not currently grant a separate open-source license; third-party text and images should not be assumed to be freely reusable.
 
 ## Maintainer
 
