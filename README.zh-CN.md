@@ -52,6 +52,8 @@ Zhenjia Pan 维护的个人课程表，集中展示每周安排、课程简介�
 使用 Node.js 22.18 或以上版本和 npm；自动检查使用 Node.js 24。不需要环境变量。
 
 ```sh
+git clone https://github.com/zhenjiapan/course-timetable.git
+cd course-timetable
 npm ci
 npm run dev
 ```
