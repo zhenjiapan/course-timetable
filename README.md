@@ -4,6 +4,14 @@ A personal, responsive course timetable maintained by Steven Pan. It brings week
 
 [Live timetable](https://steven-s-weekly-course-timetable-fa.vercel.app) · [中文说明](README.zh-CN.md) · [Data guide](docs/data-guide.md)
 
+## Motivation
+
+I started this project as a first-year student at CUHK-Shenzhen to address practical needs in my daily university life:
+
+- **Finding teaching buildings:** As a newcomer, I was unfamiliar with campus locations. Building images from the campus map provide visual references to help me find where classes take place.
+- **Checking my schedule conveniently:** An online timetable lets me check my classes whenever needed, saving time in everyday use.
+- **Understanding courses and instructors:** Course descriptions help me understand what I will study this semester, while instructor information and homepage links help me explore their research interests.
+
 ## Preview
 
 ### Desktop weekly view
@@ -38,7 +46,9 @@ The implementation uses Next.js 16, React 19, TypeScript, and Tailwind CSS 4. St
 
 ## Development approach
 
-This project is maintained by Steven Pan. AI-assisted tools were used for repository restructuring, documentation improvements, and selected implementation changes.
+This is my first vibe coding project: a practical exploration of building an application with AI assistance. Turning a personal need into a working tool helped me develop my software development skills and become more familiar with using Codex.
+
+The project is maintained by Steven Pan. AI-assisted tools were used for repository restructuring, documentation improvements, and selected implementation changes.
 
 ## Run locally
 
