@@ -67,4 +67,4 @@ Course descriptions and instructor links are retained from the existing dataset.
 
 ## Maintainer
 
-[Steven Pan / zhenjiapan](https://github.com/zhenjiapan)
+[zhenjiapan](https://github.com/zhenjiapan)
